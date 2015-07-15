@@ -1,5 +1,4 @@
 ## Source Spitter
-Can be accessed at - <heroku link>
 
 #### Technology Stack
 * Nodejs
@@ -19,8 +18,6 @@ Can be accessed at - <heroku link>
 #### Project Setup
 * The modules folder has not been committed to git. Run `npm install` from root directory `source-spitter`
 * To run the project locally: `DEBUG=source-spitter:* npm start`. Unless specifically told, the webpage should be accessible at //localhost:3000/
-* To access heroku deployed version of the project: 
-
 
 #### Project Structure and Definitions
 The application is built on Node's Express framework, with Javascript, and jQuery in assistance. A very simple site to access source code and related information for a user submitted url. To maintain the requiremnet specifications the fetched documnet is not man-handled at all. It is displayed as-is, in real life applications, I would have first cleaned nad re formated the recieved data.
