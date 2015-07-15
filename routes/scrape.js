@@ -7,10 +7,12 @@ var express = require('express'),
 	contentBody = '',
 	errorBody = '';
 
+/* Router specific configurations */
 router.use(bodyParser());
 router.use(bodyParser.json());
 router.use(bodyParser.urlencoded({ extended: false }));
 
+/* POST function to enable request module to get data, pass relevant content.*/
 router.post('/', function (req, res) {  
   var fetchURL = req.body.url;
 
