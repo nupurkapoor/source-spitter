@@ -13,7 +13,7 @@ $(function(){
 	$('#submit').on( 'click', function (e) {
 		e.preventDefault(); // we don't need to submit the form
 		var sSearch = $('#url-to-fetch').val(); //pass URL value to route to process request
-		sSearch = encodeURIComponent(sSearch);
+		sSearch = setHttp(sSearch);
 		var ajaxCall = $.ajax({
 	        url: '/',
 	        type: 'POST',
@@ -28,6 +28,13 @@ $(function(){
 		});
 	});
 });
+
+function setHttp(link) {
+    if (link.search(/^http[s]?\:\/\//) == -1) {
+        link = 'http://' + link;
+    }
+    return link;
+}
 
 /*
 	Parse Data recieved by the request module on success method.
