@@ -2,11 +2,11 @@
 Can be accessed at - <heroku link>
 
 #### Technology Stack
-Nodejs
-Express
-jQuery
-HTML
-CSS
+* Nodejs
+* Express
+* jQuery
+* HTML
+* CSS
 
 #### Requirement
 * Create a simple web app, hosted at a URL we can visit
@@ -23,6 +23,16 @@ CSS
 
 
 #### Project Structure and Definitions
+The application is built on Node's Express framework, with Javascript, and jQuery in assistance. A very simple site to access source code and related information for a user submitted url. To maintain the requiremnet specifications the fetched documnet is not man-handled at all. It is displayed as-is, in real life applications, I would have first cleaned nad re formated the recieved data.
+
+The structure is that of a standard Express build:
+
+* bin/ - port definitions, and app configurations
+* public/ – contains all static files like style sheets, javascript, and external librraies
+* routes/ – defines app's routes and their logic
+* views/ – provides templates which are rendered and served by the respective routes
+* app.js – initializes the app and glues everything together
+* package.json – remembers all packages that the app depends on and their versions, speeds startup procedure
 
 
 #### UI Inspiration
