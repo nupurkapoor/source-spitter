@@ -1,10 +1,10 @@
 /*Global CSS file*/
 
-body {
+.content-body {
   padding-left: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
     width:900px;
     text-align:left;
     position:relative;
@@ -23,6 +23,16 @@ pre {
 
 h1.title {
     color: #ECB438;
+}
+
+.personal-info h3{
+  color: #2AA28D
+}
+.personal-info h4 {
+  color: 
+}
+.personal-info h4 span {
+  font-style: italic; 
 }
 
 .name-heading, .count-heading{
