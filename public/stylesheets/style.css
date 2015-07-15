@@ -1,0 +1,74 @@
+/*Global CSS file*/
+
+body {
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    width:900px;
+    text-align:left;
+    position:relative;
+    z-index:2;
+}
+
+a {
+  color: #00B7FF;
+}
+
+pre {
+  overflow: auto;
+  width: 850px;
+  height: 750px;
+}
+
+h1.title {
+    color: #ECB438;
+}
+
+.name-heading, .count-heading{
+    color: #2AA48E;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.parsed-content-display {
+    width:600px;
+    float: left;  
+}
+
+.parsed-content-info {
+    width:auto;
+    position: relative;
+    margin:0;
+    overflow: hidden;
+    z-index:99;
+    float:right;
+    left:150px;
+}
+
+.search-box {
+  border-radius: 8px;
+  width: 680px;
+  height: 60px;
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #ffffff;
+  color: #77962B;
+}
+
+.submit-btn {
+  border-radius: 8px;
+  width: 165px;
+  height: 60px;
+  color: #ffffff;
+  border-style: solid;
+  background-color: #85D1DF;
+  border-color: #E22071;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.user-info {
+  padding-bottom: 30px;
+}
+
