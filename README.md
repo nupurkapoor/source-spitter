@@ -15,7 +15,11 @@
 * Clicking on the name of each tag in the summary will highlight the tags in the source code view
 * Provide all source code via github.
 
+#### Dependencies
+* "node": "0.12.5" or higher
+* "npm": "2.11.2" or higher
 #### Project Setup
+* Clone the repository in your local environment
 * The modules folder has not been committed to git. Run `npm install` from root directory `source-spitter`
 * To run the project locally: `DEBUG=source-spitter:* npm start`. Unless specifically told, the webpage should be accessible at //localhost:3000/
 
